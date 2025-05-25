@@ -1,8 +1,13 @@
 @charset "UTF-8";
 
 
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Playpen+Sans+Deva:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
-    text-align: center;
+    height: auto;
+    width: auto;
 }
 
 body {
@@ -11,6 +16,7 @@ body {
 }
 
 h1 {
+    font-family: "PT Serif";
     font-size: 2.5em;
 }
 
@@ -19,14 +25,14 @@ nav a:hover {
     color: red;
 }
 nav a {
-    
-    margin-right: 15px;
+    font-size: 18px;
+    margin-right: 20px;
     color: black;
     text-decoration: none;
     
 }
 nav {
-    padding-left: 15px;
+    padding-left: 20px;
     padding-top: 10px;
 }
 
@@ -36,19 +42,73 @@ header img {
     width: 200px;
 }
 section p#ola {
-    
-    font-size: 80px;
-    margin-bottom: -197px;
+    font-family: "Playpen sans deva", "Sans-serif";
+    font-size: 63px;
+    margin-bottom: -203px;
 
 }
 section p#nome {
-    font-size: 165px;
+    font-family: "Playpen sans deva", "Sans-serif";
+    font-size: 122px;
+
 }
 
 section p#almeida {
-    font-size: 165px;
-    margin-top: -182px;
- 
+    font-family: "Playpen sans deva", "Sans-serif";
+    font-size: 150px;
+    margin-top: -240px;
+    margin-bottom: -120px;
 } 
+
+section p#estudante {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-top: 25px;
+    margin-bottom: 100px;
+    text-decoration: underline;
+    font-weight: bolder;
+} 
+
+h2 {
+    font-family: "PT Serif"; 
+    font-size: 3em;
+}
+
+main {
+    text-align: justify;
+    line-height: 25px;
+    
+}
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 15px;
+}
+
+aside p a:hover {
+text-decoration: underline;
+color: blue;
+
+}
+
+aside p a{
+text-decoration: none;
+color: black;
+}
+
+aside p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img.foto{
+    width: 300px;
+    border-radius: 94px 24px;
+}
+section.fotosevideos{
+    font-family: "PT Serif";
+}
+ video {
+    height: 600px;
+    border-radius: 94px 24px; 
+ }
 
 
