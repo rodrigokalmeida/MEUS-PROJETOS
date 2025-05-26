@@ -43,31 +43,30 @@ header img {
 }
 section p#ola {
     font-family: "Playpen sans deva", "Sans-serif";
-    font-size: 63px;
-    margin-bottom: -203px;
-
+    font-size: 8vw;
+    margin-bottom: -21vw;
 }
+
 section p#nome {
     font-family: "Playpen sans deva", "Sans-serif";
-    font-size: 122px;
-
+    font-size: 15vw;
 }
 
 section p#almeida {
     font-family: "Playpen sans deva", "Sans-serif";
-    font-size: 150px;
-    margin-top: -240px;
-    margin-bottom: -120px;
-} 
+    font-size: 18vw;
+    margin-top: -6vw;
+    margin-top: -33vw;
+}
 
 section p#estudante {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 15px;
-    padding-top: 25px;
-    margin-bottom: 100px;
+    font-size: 2vw;
+    margin-bottom: 10vw;
     text-decoration: underline;
     font-weight: bolder;
-} 
+    margin-top: -28vw;
+}
 
 h2 {
     font-family: "PT Serif"; 
@@ -82,6 +81,14 @@ main {
 main p {
     font-family: Arial, Helvetica, sans-serif;
     text-indent: 15px;
+}
+aside p  img {
+    margin-right: 40px;
+    height: 100px;
+
+}
+aside h3 {
+    text-decoration: underline;
 }
 
 aside p a:hover {
@@ -100,6 +107,7 @@ aside p {
 }
 
 img.foto{
+    border: 2px solid rgb(88, 88, 88);
     width: 300px;
     border-radius: 94px 24px;
 }
@@ -109,6 +117,24 @@ section.fotosevideos{
  video {
     height: 600px;
     border-radius: 94px 24px; 
+ }
+
+div img.icones {
+    margin-right: 20px;
+    height: 30px;
+}
+
+ div {
+    font-weight: bolder;
+    font-family: "Playpen sans deva", "Sans-serif";
+    text-align: center;
+ }
+ footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px -8px -20px -8px;
+    
  }
 
 
